@@ -1,5 +1,3 @@
-# cybersecurity-portfolio
-Portfolio of practical cybersecurity projects and certifications, demonstrating applied skills in system security.
 # 🛡️ Cybersecurity Portfolio
 
 Welcome! I'm Olaniyi Jimo, a cybersecurity enthusiast focused on SOC analysis
