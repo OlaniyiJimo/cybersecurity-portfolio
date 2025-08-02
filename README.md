@@ -22,3 +22,12 @@ This portfolio highlights my practical work, write-ups, tools, and research in c
 - Python & Bash Scripting
 - Vulnerability Scanning (Nmap, Nessus)
 - Active Directory Security
+
+
+git clone https://github.com/yourusername/cybersecurity-portfolio.git
+cd cybersecurity-portfolio
+mkdir CTF-Writeups Projects Scripts Reports Certifications
+touch README.md
+git add .
+git commit -m "Initial commit - created cybersecurity portfolio structure"
+git push
