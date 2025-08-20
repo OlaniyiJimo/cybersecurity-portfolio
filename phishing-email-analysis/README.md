@@ -21,6 +21,8 @@ Subject: Binance Distribution of Trust Wallet (TWT) Airdrop
 
 Return-Path: emblue3prd_bm@emark4.embluejet.com
 
+![Dashboard View](../../screenshots/dashboard_view.png)
+
 
 
 Step 2: Extract URLs
