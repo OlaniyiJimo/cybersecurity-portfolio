@@ -9,7 +9,7 @@
  Step 1: Email Header Analysis
 Used `grep` to extract metadata such as sender, recipient, subject, and return path:  
 
-(![Header Analysis](phishing-email-analysis/screenshot/Headers.png))
+(![Header Analysis](../../screenshots/Headers.png))
 
 
 Findings:
@@ -26,7 +26,7 @@ Return-Path: emblue3prd_bm@emark4.embluejet.com
 Step 2: Extract URLs
 
 Extracted all links in the email using regex:
-![Extracted URLs](screenshots/extracted_Urls.png)
+![Extracted URLs](../../screenshots/extracted_Urls.png)
 
 
 Extracted URLs:
