@@ -70,5 +70,7 @@ Observed Techniques
 
 Security Impact
 1 Phishing campaign pretending to be Binance/TrustWallet airdrop
+
 2 Aim: Steal credentials or deliver malware via malicious links
+
 3 Risk: High (financial theft, credential compromise)
