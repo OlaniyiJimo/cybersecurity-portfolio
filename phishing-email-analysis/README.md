@@ -9,7 +9,7 @@
  Step 1: Email Header Analysis
 Used `grep` to extract metadata such as sender, recipient, subject, and return path:  
 
-(![Header Analysis](../../screenshots/Headers.png))
+(![Header Analysis](../../screenshot/Headers.png))
 
 
 Findings:
@@ -21,14 +21,13 @@ Subject: Binance Distribution of Trust Wallet (TWT) Airdrop
 
 Return-Path: emblue3prd_bm@emark4.embluejet.com
 
-![Dashboard View](../../screenshots/dashboard_view.png)
 
 
 
 Step 2: Extract URLs
 
 Extracted all links in the email using regex:
-![Extracted URLs](../../screenshots/extracted_Urls.png)
+![Extracted URLs](../phishing-email-analysis/screenshot/extracted_Urls.png)
 
 
 Extracted URLs:
