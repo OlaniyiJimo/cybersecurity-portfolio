@@ -43,10 +43,10 @@ Extracted URLs:
 - https://app.embluemail.com/Confirm/TermsAnd=
 
 
-**##Indicators of Compromise (IOCs)**
+**Indicators of Compromise (IOCs)**
 Below are the artifacts extracted from the phishing email (sample-1412.eml):
 
-Email Artifacts
+**Email Artifacts**
 From: TrustWallet <defaultsender@mailingmktg.com>
 Reply-To: defaultsender@mailingmktg.com
 Return-Path: emblue3prd_bm@emark4.embluejet.com
@@ -70,8 +70,6 @@ Subject: Binance Distribution of Trust Wallet (TWT) Airdrop
 - Financial lure ("Binance / TrustWallet airdrop")
 
 **Security Impact**
-1 Phishing campaign pretending to be Binance/TrustWallet airdrop
-
-2 Aim: Steal credentials or deliver malware via malicious links
-
-3 Risk: High (financial theft, credential compromise)
+- Phishing campaign pretending to be Binance/TrustWallet airdrop
+- Aim: Steal credentials or deliver malware via malicious links
+- Risk: High (financial theft, credential compromise)
