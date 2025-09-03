@@ -20,14 +20,16 @@ This project monitors SSH login failures on a kali Linux system using Splunk. It
 - Tune alerts and dashboard filters as needed.
 
 ## Screenshots
+**Dashboard visualizing failed SSH logins.**
 
 ![Dashboard View](../SSH_Login_Failure_Monitoring_with_Splunk/screenshots/dashboard_view.png)
-*Dashboard visualizing failed SSH logins.*
 
 
 
-![failed SSH Login Attempt](../SSH_Login_Failure_Monitoring_with_Splunk/screenshots/commandline_sshlogin_attempt.png) 
 *Commandline showing failed SSH login attempt.*
+![failed SSH Login Attempt](../SSH_Login_Failure_Monitoring_with_Splunk/screenshots/commandline_sshlogin_attempt.png) 
+
+
 
 ## Troubleshooting
 - Confirm Splunk user permissions to read /var/log/ssh_journal.log.
