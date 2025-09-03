@@ -27,7 +27,7 @@ Return-Path: emblue3prd_bm@emark4.embluejet.com
 **Step 2: Extract URLs**
 
 Extracted all links in the email using regex:
-![Extracted URLs](../phishing-email-analysis/Screenshot/extracted_Urls.png)
+![Extracted URLs](../phishing-email-analysis/Screenshots/extracted_Urls.png)
 
 
 Extracted URLs:
