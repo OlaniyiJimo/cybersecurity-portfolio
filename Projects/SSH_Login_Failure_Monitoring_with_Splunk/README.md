@@ -34,8 +34,5 @@ This project monitors SSH login failures on a kali Linux system using Splunk. It
 - Check the system time zone and Splunk time settings for accurate timestamps.
 - Verify logs are written to /var/log/ssh_journal.log in real time.
 
-## License
-MIT License
 
----
 
