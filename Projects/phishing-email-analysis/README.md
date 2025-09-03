@@ -9,7 +9,7 @@
 ** Step 1: Email Header Analysis**
 Used `grep` to extract metadata such as sender, recipient, subject, and return path:  
 
-![Header Analysis](../phishing-email-analysis/screenshot/Headers.png)
+![Header Analysis](../Projects/phishing-email-analysis/Screenshot/Headers.png)
 
 
 **Findings:**
