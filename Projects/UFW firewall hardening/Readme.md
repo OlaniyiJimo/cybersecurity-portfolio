@@ -9,3 +9,7 @@ The objective was to reduce the system’s attack surface** by restricting netwo
 - **Network Mode:**  Host-Only Adapter (same subnet) 
 - **Firewall Tool:** UFW (Uncomplicated Firewall) 
 - **Validation Tool:** Nmap 
+
+## Procedure summary
+- Nmap was run from the Kali attacker to identify open services before implementing any firewall rules.
+  
