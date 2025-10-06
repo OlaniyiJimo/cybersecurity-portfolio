@@ -30,4 +30,18 @@ sudo ufw --force enable <br/>
 sudo ufw status verbose | tee ~/ufw_status.txt <br/>
 
 - Nmap was re-run from Kali to validate the new firewall configuration.
+ Using command: sudo nmap -sS -sV -p 21,22,80,443 192.168.1.244
+
+
+## Analysis
+- Attack Surface Reduced: Only port 80 (HTTP) remained open to external connections.
+
+- Access Control Enforced: SSH restricted to specific management IP (192.168.1.128).
+
+- Legacy Services Disabled: FTP, Telnet, and RDP ports denied to prevent remote exploitation.
+
+- Firewall Verified: Nmap results confirm filtering behavior for blocked ports.
+
+- Network Security Principle: Least privilege successfully applied to host-level communication.
+
   
