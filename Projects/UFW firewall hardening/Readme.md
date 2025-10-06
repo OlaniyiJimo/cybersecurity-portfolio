@@ -17,7 +17,8 @@ The objective was to reduce the system’s attack surface** by restricting netwo
 
 - UFW was reset, configured to deny all incoming traffic by default, and allow only necessary services.
 
-  Using command:sudo ufw --force reset
+  Using command: <br/>
+sudo ufw --force reset
 sudo ufw default deny incoming. <br/>
 sudo ufw default allow outgoing <br/>
 sudo ufw allow from 192.168.1.128 to any port 22 proto tcp <br/>
@@ -26,5 +27,7 @@ sudo ufw deny 21/tcp <br/>
 sudo ufw deny 23/tcp <br/>
 sudo ufw deny 3389/tcp <br/>
 sudo ufw --force enable <br/>
-sudo ufw status verbose | tee ~/ufw_status.txt
+sudo ufw status verbose | tee ~/ufw_status.txt <br/>
+
+- Nmap was re-run from Kali to validate the new firewall configuration.
   
