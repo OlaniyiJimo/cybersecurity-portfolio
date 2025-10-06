@@ -13,5 +13,5 @@ The objective was to reduce the system’s attack surface** by restricting netwo
 ## Procedure summary
 - Nmap was run from the Kali attacker to identify open services before implementing any firewall rules.
 
-  ```bash sudo nmap -sS -sV -p 21,22,80,443 192.168.1.244
+  using command sudo nmap -sS -sV -p 21,22,80,443 192.168.1.244
   
