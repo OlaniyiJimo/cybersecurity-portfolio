@@ -14,4 +14,17 @@ The objective was to reduce the system’s attack surface** by restricting netwo
 - Nmap was run from the Kali attacker to identify open services before implementing any firewall rules.
 
   using command sudo nmap -sS -sV -p 21,22,80,443 192.168.1.244
+
+- UFW was reset, configured to deny all incoming traffic by default, and allow only necessary services.
+
+  Using command:sudo ufw --force reset
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow from 192.168.1.128 to any port 22 proto tcp
+sudo ufw allow 80/tcp
+sudo ufw deny 21/tcp
+sudo ufw deny 23/tcp
+sudo ufw deny 3389/tcp
+sudo ufw --force enable
+sudo ufw status verbose | tee ~/ufw_status.txt
   
