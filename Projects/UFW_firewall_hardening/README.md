@@ -21,14 +21,12 @@ The objective was to reduce the system’s attack surface** by restricting netwo
 - ![applied firewall rule](../UFW_firewall_hardening/Screenshots/applied_firewall_rule.png)
 
   Using command: <br/>
-sudo ufw --force reset
+sudo ufw --force reset <br/>
 sudo ufw default deny incoming. <br/>
 sudo ufw default allow outgoing <br/>
 sudo ufw allow from 192.168.1.128 to any port 22 proto tcp <br/>
 sudo ufw allow 80/tcp <br/>
 sudo ufw deny 21/tcp <br/>
-sudo ufw deny 23/tcp <br/>
-sudo ufw deny 3389/tcp <br/>
 sudo ufw --force enable <br/>
 sudo ufw status verbose | tee ~/ufw_status.txt <br/>
 
