@@ -18,8 +18,10 @@ The objective was to reduce the system’s attack surface** by restricting netwo
 
 
 - UFW was reset, configured to deny all incoming traffic by default, and allow only necessary services.
-- ![applied firewall rule](../UFW_firewall_hardening/Screenshots/applied_firewall_rule.png)
+- ![applied firewall rule](../UFW_firewall_hardening/Screenshots/applied_firewall_rule.png) ,<br/>
 
+
+![applied firewall rule status](../UFW_firewall_hardening/Screenshots/applied_firewall_rule_status.png)
   Using command: <br/>
 sudo ufw --force reset <br/>
 sudo ufw default deny incoming. <br/>
