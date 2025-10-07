@@ -34,7 +34,7 @@ sudo ufw status verbose | tee ~/ufw_status.txt <br/>
 
 - Nmap was re-run from Kali to validate the new firewall configuration.
  Using command: sudo nmap -sS -sV -p 21,22,80,443 192.168.1.244
-
+![nmap scan after](../UFW_firewall_hardening/Screenshots/nmap_scan_after_firewall_rule.png)
 
 ## Analysis
 - Attack Surface Reduced: Only port 80 (HTTP) remained open to external connections.
