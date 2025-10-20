@@ -6,7 +6,7 @@ This portfolio highlights my practical work, write-ups, tools, and research in c
 ---
 
 ## Skills Demonstrated
-- Log Analysis & SIEM (Splunk, ELK)
+- Log Analysis & SIEM (Splunk)
 - Threat Hunting & Incident Response
 - Python & Bash Scripting
 - Vulnerability Scanning (Nmap, Nessus)
